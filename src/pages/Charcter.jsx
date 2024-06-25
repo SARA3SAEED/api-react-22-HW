@@ -14,11 +14,11 @@ export default function Charcter() {
     }, [])
 
   return (
-    <div className="hero bg-base-200 w-[70%] m-28 shadow-2xl">
+    <div className="hero bg-base-200 w-[70%] m-16 shadow-xl">
     <div className="hero-content flex-col lg:flex-row">
       <img
         src={character.img_url}
-        className="max-w-sm rounded-lg shadow-2xl" />
+        className=" rounded-lg shadow-xl" />
       <div>
                 <h2 className="card-title">{character.name}</h2>
                 <p>{character.status}</p>
